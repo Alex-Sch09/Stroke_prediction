@@ -5,6 +5,7 @@ from sklearn.preprocessing import OneHotEncoder, FunctionTransformer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 import joblib
+import catboost
 import shap
 import matplotlib.pyplot as plt
 
