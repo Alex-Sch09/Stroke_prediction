@@ -1,0 +1,24 @@
+Gridsearch was used to train various models, tuning their main hyperparameters over a range of values. The following models were
+trained, using the listed ranges for hyperparameter tuning and the listed models for RFE:  
+                
+**RandomForestClassifier:**  
+                Number of estimators: 50 to 400 with a step of 50.  
+                Max depth of estimators: [3, 5, 7]  
+                
+**CatBoostClassifier**:  
+                Number of iterations: 50 to 400 with a step of 50.  
+                Max depth of iterations: [3, 5, 7]  
+                
+**DecisionTreeClassifier**:  
+                Max depth: 1 to 7.  
+                Max leaf nodes: 2 to 50 with a step of 5.  
+                
+        
+**LogisticRegression**:  
+                All hyperparameters were set to default.
+
+**XGBClassifier**:  
+                Number of estimators: 50 to 400 with a step of 50.  
+                Max depth of estimators: [3, 5, 7]  
+                
+GridSearch was performed with five-fold stratified crossvalidation using the area under the ROC curve (roc_auc score) as the evaluation metric.

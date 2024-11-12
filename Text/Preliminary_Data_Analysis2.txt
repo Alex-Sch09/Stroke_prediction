@@ -1,0 +1,3 @@
+A violin plot shows there is correlation between these variables. Positive cases are concetrated at higher age
+values. Age is, therefore, considered an important variable for the prediction of stroke occurence.
+- Glucose level/Stroke correlation

@@ -1,0 +1,166 @@
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean_fit_time</th>
+      <th>std_fit_time</th>
+      <th>mean_score_time</th>
+      <th>std_score_time</th>
+      <th>param_Estimación</th>
+      <th>param_Estimación__max_depth</th>
+      <th>param_Estimación__n_estimators</th>
+      <th>param_Reducción_columnas__estimator</th>
+      <th>param_Reducción_columnas__n_features_to_select</th>
+      <th>param_Estimación__depth</th>
+      <th>...</th>
+      <th>param_Reducción_columnas__estimator__n_estimators</th>
+      <th>params</th>
+      <th>split0_test_score</th>
+      <th>split1_test_score</th>
+      <th>split2_test_score</th>
+      <th>split3_test_score</th>
+      <th>split4_test_score</th>
+      <th>mean_test_score</th>
+      <th>std_test_score</th>
+      <th>rank_test_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1702</th>
+      <td>0.639566</td>
+      <td>0.008428</td>
+      <td>0.005400</td>
+      <td>7.999544e-04</td>
+      <td>LogisticRegression()</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>XGBClassifier(base_score=None, booster=None, c...</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>100</td>
+      <td>{'Estimación': LogisticRegression(), 'Reducció...</td>
+      <td>0.874822</td>
+      <td>0.849218</td>
+      <td>0.854196</td>
+      <td>0.916785</td>
+      <td>0.818115</td>
+      <td>0.862627</td>
+      <td>0.032601</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1728</th>
+      <td>0.872154</td>
+      <td>0.015967</td>
+      <td>0.005000</td>
+      <td>9.956652e-07</td>
+      <td>LogisticRegression()</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>XGBClassifier(base_score=None, booster=None, c...</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>100</td>
+      <td>{'Estimación': LogisticRegression(), 'Reducció...</td>
+      <td>0.874822</td>
+      <td>0.857041</td>
+      <td>0.842105</td>
+      <td>0.916074</td>
+      <td>0.818115</td>
+      <td>0.861632</td>
+      <td>0.032967</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>1662</th>
+      <td>0.488774</td>
+      <td>0.005635</td>
+      <td>0.005800</td>
+      <td>7.484174e-04</td>
+      <td>LogisticRegression()</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>XGBClassifier(base_score=None, booster=None, c...</td>
+      <td>4</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>50</td>
+      <td>{'Estimación': LogisticRegression(), 'Reducció...</td>
+      <td>0.869132</td>
+      <td>0.850640</td>
+      <td>0.851351</td>
+      <td>0.916074</td>
+      <td>0.815924</td>
+      <td>0.860624</td>
+      <td>0.032652</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>1676</th>
+      <td>0.864354</td>
+      <td>0.027147</td>
+      <td>0.005400</td>
+      <td>8.003474e-04</td>
+      <td>LogisticRegression()</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>XGBClassifier(base_score=None, booster=None, c...</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>100</td>
+      <td>{'Estimación': LogisticRegression(), 'Reducció...</td>
+      <td>0.874822</td>
+      <td>0.857041</td>
+      <td>0.854196</td>
+      <td>0.933855</td>
+      <td>0.778305</td>
+      <td>0.859644</td>
+      <td>0.049780</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1727</th>
+      <td>0.919951</td>
+      <td>0.025822</td>
+      <td>0.006201</td>
+      <td>1.166458e-03</td>
+      <td>LogisticRegression()</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>XGBClassifier(base_score=None, booster=None, c...</td>
+      <td>4</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>100</td>
+      <td>{'Estimación': LogisticRegression(), 'Reducció...</td>
+      <td>0.869132</td>
+      <td>0.850640</td>
+      <td>0.861309</td>
+      <td>0.916074</td>
+      <td>0.796932</td>
+      <td>0.858817</td>
+      <td>0.038177</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 24 columns</p>
+</div>

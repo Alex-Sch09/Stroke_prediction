@@ -1,0 +1,5 @@
+The violin plot highlights two main points. First, the average glucose shows a bimodal distribution,
+suggesting the presence of two distinct populations. Second, positive cases are more concentrated at higher glucose 
+levels than negative cases. This suggests a comorbidity factor, possibly due to diabetes. Therefore, the glucose
+level seems to be an important factor for predicting stroke occurence.
+- Glucose level/Age correlation

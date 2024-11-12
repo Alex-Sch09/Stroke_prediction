@@ -1,0 +1,3 @@
+A relatively high prediction performance was achieved with the trained CatBoost model. However, the models
+explored in the hypertuning phase were kept intentionally simple. A broader exploration of prediction models and 
+their hyperparameters would be recommended for improving prediction model performance.

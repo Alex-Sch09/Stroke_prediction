@@ -1,0 +1,19 @@
+This project was developed for the final evaluation of the Data Science course of the
+online academy CoderHouse. It uses the data from the Stroke dataset to train a machine
+learning model and predict, based on user-provided whether the user has suffered or 
+will suffer a stroke.  
+The data contained in the dataset included the following variables:  
+- Sex: categorical. Indicates the sex of the patient.
+- Hypertension: categorical. Indicates the occurrence of hypertension in a patient.
+- Heart disease: categorical. Indicates if the patient suffers or suffered from
+a heart disease.
+- Ever married: categorical. Indicates if the patient is or has been married.
+- Work type: categorical. Indicates to which of five broad categories the work of the
+patient belongs.
+- Residence type: categorical. Indicates wether the patient lives in an urban or rural 
+environment.
+- Average glucose level: numerical. Indicates the blood glucose level of the patient.
+- BMI: numerical. Indicates the _Body Mass Index_ of the patient.
+- Smoking status: categorical. Indicates if the patient smokes or has ever smoked.
+- Stroke: categorical. This is the output variable and indicates if the patient has
+suffered a stroke.

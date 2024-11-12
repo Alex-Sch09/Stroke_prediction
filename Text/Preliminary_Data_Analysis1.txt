@@ -1,0 +1,4 @@
+A preliminary analysis was conducted on the data to evaluate the relationship among independent variables, 
+as well as between each of them and the dependent variable. The most significant findings are summarized here.  
+**Correlation between continuous variables and stroke occurence:**
+- Age/Stroke correlation

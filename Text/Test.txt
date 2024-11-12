@@ -1,0 +1,4 @@
+The test set obtained from the preprocessed dataset was used to evaluate the prediction ability
+of the trained model. The values corresponding to the independent variables in the test set were used to predict 
+the occurence of strokes and the results were compared to the actual stroke occurrence data. The trained 
+CatBoost model achieved a roc_auc score of 0.754 and a recall_score of 0.790 in this prediction.

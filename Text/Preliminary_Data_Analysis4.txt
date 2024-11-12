@@ -1,0 +1,7 @@
+The hexagonal grid plot shows that the occurrence of high glucose levels is concentrated in older ages, indicating
+a correlation between these variables. It is concluded that gulcose level could be candidate for removal from
+the dataset to avoid overfitting, although this will be evaluated in later phases.
+
+**Correlation between discrete variables:**  
+The correlation between discrete variables was assessed through the calculation of Cramer's V coefficients for each
+pair of variables. All coefficients are shown in the matrix below.
