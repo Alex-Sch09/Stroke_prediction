@@ -1,5 +1,5 @@
 The following steps were executed to preprocess the data:
-- Deletion of irrelevant variables: Colum ID was deleted because it provided no useul information for the analysis.
+- Deletion of irrelevant variables: Colum ID was deleted because it provided no useful information for the analysis.
 - Categorical variable encoding: OneHotEncoder was used for encoding categorical variables. ColumnTransformer 
 was used to ensure only categorical variables were encoded. This process resulted in the creation of one
 column for each value of each categorical variable. One of these columns was deleted for each
