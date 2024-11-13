@@ -9,8 +9,8 @@ criterion.
 - Outlier deletion: during preliminary analysis, extreme BMI values were idenfied, possibly due to data-loading errors.
 In order to avoid an excessive data deletion, a BMI threshold of 70 was established. All records with BMI values exceding 
 this threshold were deleted from the data set.
-- Continuous variable normalization: continuous variables were normalized using MinMaxScaler to
+- Continuous variable scaling: continuous variables were scaled using MinMaxScaler to
 prevent larger-scale continuous variables from dominating the predictive ability of the trained model. ColunmTransformer
-was used to execute normalization on continuous variables only.
+was used to scale continuous variables only.
 - Data resampling: the unbalance in the outcome variable was compensated through undersampling using the imblearn
 library. To avoid data leakage, resampling was performed after splitting the data into train and test sets.
