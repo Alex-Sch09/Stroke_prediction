@@ -1,3 +1,3 @@
-Cramer's V coefficients indicate a significant correlation between variables correstponding to work type, marital status, and
+Cramer's V coefficients indicate a significant correlation between variables corresponding to work type, marital status, and
 smoking status. The cause of this correlation is not clear, although it allows the identification of variables that 
 may be deleted to avoid overfitting the trained models.
