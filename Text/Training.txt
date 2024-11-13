@@ -10,9 +10,8 @@ trained, using the listed ranges for hyperparameter tuning and the listed models
                 Max depth of iterations: [3, 5, 7]  
                 
 **DecisionTreeClassifier**:  
-                Max depth: 1 to 7.  
                 Max leaf nodes: 2 to 50 with a step of 5.  
-                
+                Max depth: 1 to 7.  
         
 **LogisticRegression**:  
                 All hyperparameters were set to default.
