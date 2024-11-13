@@ -1,4 +1,5 @@
-The best performing model was a CatBoost model using one hundred iterations with a depth of three levels, which 
-achieved a mean roc_auc score of 0.851 with a standard deviation of 0.048. The independent variables with the 
-highest predictive value, as explained through shap explainer, were _Age_, _Average_glucose_level_, _Ever_married_Yes_,
+The criterion used to identify the best performing model was the highest mean roc_auc_score. With this criterion, the best 
+performing model was a CatBoost model using one hundred iterations with a depth of three levels, which 
+achieved a mean roc_auc score of 0.851 with a standard deviation of 0.048 (see table below). The independent variables with the 
+highest predictive value, as explained using shap, were _Age_, _Average_glucose_level_, _Ever_married_Yes_,
 _Hypertension_, and _BMI_.
