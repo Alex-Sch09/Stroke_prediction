@@ -70,6 +70,8 @@ elif st.session_state.section == 'Project_description_stroke':
     st.markdown(Text8)
     st.subheader("Training results and prediction test")
     st.markdown(Text9)
+    st.write(joblib.load('grid.pkl'))
+    st.image('Images/shap.png')
     st.markdown(Text10)
     st.subheader("Conclusions and further steps for improving prediction performance")
     st.markdown(Text11)
