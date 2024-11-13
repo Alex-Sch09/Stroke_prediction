@@ -6,8 +6,9 @@ column for each value of each categorical variable. One of these columns was del
 variable to avoid perfect correlation between the new variables.
 - Imputation of missing values: KNN imputer was used to fill missing values using a Nearest Neighbour
 criterion.
-- Outlier deletion: during preliminary analysis extreme values were idenfied, possibly due to data-loading errors.
-The entries containing the identified extreme values were deleted from the data set.
+- Outlier deletion: during preliminary analysis, extreme BMI values were idenfied, possibly due to data-loading errors.
+In order to avoid an excessive data deletion, a BMI threshold of 70 was established. All records with BMI values exceding 
+this threshold were deleted from the data set.
 - Continuous variable normalization: continuous variables were normalized using MinMaxScaler to
 prevent larger-scale continuous variables from dominating the predictive ability of the trained model. ColunmTransformer
 was used to execute normalization on continuous variables only.
